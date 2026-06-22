@@ -1,0 +1,5 @@
+# Basay TTS word rewrite dictionary.
+# Format: source<TAB>target
+# The source form is matched case-insensitively; slug/display keep the original input.
+vavan	vapvan
+vlay	vplay

@@ -1,0 +1,11 @@
+# seed-vc は別途 git clone する依存先（本repoには含めない）
+seed-vc/
+
+# 個人の声データ・生成物（上層 voxcpm2-voice-cloner 側のものだが念のため）
+voices/
+output/
+*.wav
+
+__pycache__/
+*.pyc
+.DS_Store
