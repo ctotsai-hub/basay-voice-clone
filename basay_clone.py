@@ -8,7 +8,7 @@ basay_clone.py — 巴賽語(Basay)的文字，用VoxCPM2複製的你的聲音�
      API，跟辭典頁面 https://basay.tw/dictionary/ 用的是同一套合成引擎）把
      音素文字合成為機械人聲。預設用 tai/bsystd（台語適配・Lobanov 正規化），
      因為音韻與 seed-vc 訓練語言較接近，聲音轉換後內容較不易跑掉；
-     tai/bsy（Ipay 歷史復原・基於 Asai 1936 Mutravai 方言的聲學重建）音韻
+     tai/bsy（Ipay 歷史復原・基於 Asai 1936 Trobiawan 方言的聲學重建）音韻
      更精確，但 seed-vc 較容易誤判。
      （也可以用 --espeak-backend local 改用本機編譯的 espeak-ng，見下方）
   3. 用 seed-vc 把這段機械人聲轉換成 voices/<voice>/ref_voice.wav 的複製聲音

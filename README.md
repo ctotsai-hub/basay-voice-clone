@@ -24,7 +24,7 @@ espeak 音素文字
 
 ## 為什麼這樣設計
 
-- **發音正確性**：巴賽語的音韻規則（含1936年Asai調查記錄的Mutravai方言聲學重建）已經在 [basay.tw](https://basay.tw) 專案中建立並持續維護，直接重用其正式服務最可靠，不必在每台機器上各自編譯維護 espeak-ng。
+- **發音正確性**：巴賽語的音韻規則（含1936年Asai調查記錄的Trobiawan聲學重建）已經在 [basay.tw](https://basay.tw) 專案中建立並持續維護，直接重用其正式服務最可靠，不必在每台機器上各自編譯維護 espeak-ng。
 - **聲音是你的**：espeak合成出來的是機械人聲，透過 [seed-vc](https://github.com/Plachtaa/seed-vc)（零樣本聲音轉換）轉換音色，得到「用你的聲音說巴賽語」的效果。
 - **跨平台**：合成這端走遠端API，不需要在Windows/Mac/Linux各自編譯espeak-ng。
 
